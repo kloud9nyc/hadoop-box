@@ -21,11 +21,11 @@
       ./docs
       ./package.box
       
-      
-## Then Issue the below commands
+## Then Go to the terminal , and test vagrant is installed perfectly
 
-      vagrant box add package.box --name hadoop-machine
-## Then issue the below commands
+      vagrant --version
+      
+## Then install the VB Guest if you are not installed already
 
       Optiona: If you are installed the bgguest plugin
       
@@ -35,6 +35,12 @@
    
       vagrant plugin update vagrant-vbguest
       
+
+
+## Then Issue the below commands
+
+      vagrant box add package.box --name hadoop-machine
+
       
 ## Then issue the below command to up the machine
 
